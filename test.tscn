@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://qvgydo6ydyyo"]
+
+[node name="Node2D" type="Node2D" unique_id=185712795]
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=1742742156]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_top = -4.0
+offset_right = 1157.0
+offset_bottom = 656.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 4
+text = "Poop"
