@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://qvgydo6ydyyo"]
+
+[ext_resource type="Texture2D" uid="uid://p0vsvuahhu1k" path="res://Entity/Player/assets/tism.png" id="1_37kl0"]
+[ext_resource type="Script" uid="uid://xibltejwn822" path="res://Entity/Player/scripts/fsm.gd" id="2_3312u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8uh7m"]
+
+[node name="Player" type="CharacterBody2D" unique_id=707292887]
+
+[node name="Collision" type="CollisionShape2D" parent="." unique_id=1069687199]
+shape = SubResource("RectangleShape2D_8uh7m")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=949215982]
+texture = ExtResource("1_37kl0")
+
+[node name="FSM" type="Node" parent="." unique_id=1789522072]
+script = ExtResource("2_3312u")
